@@ -1,0 +1,41 @@
+.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vw;
+    width: 99vw;
+    overflow: hidden;
+    height: auto;
+}
+.book-tile{
+    margin: 2vw;
+    width:250px;
+    height: 42vh;
+    background-color: rgb(207, 242, 255); 
+    border-radius: 1vw; 
+    padding: 0.5vw;
+}
+.book-tile:hover{
+    border: 2px solid rgb(188, 36, 36);
+    box-shadow: 0.2vw 0.2vw 0.5vw rgb(188, 36, 36);
+}
+body{
+    display: block;
+}
+.img{
+    height:28vh;
+    width:150px;
+    padding: 0.5vw;
+}
+.star{
+    width:0.8vw;
+    margin: 4px;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+}
+@media all and (orientation: portrait){
+
+}
