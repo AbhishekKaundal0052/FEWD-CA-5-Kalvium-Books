@@ -1,12 +1,12 @@
 .books{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: center;
+    align-items: center;
     margin-top: 5vw;
-    width: 99vw;
-    overflow: hidden;
-    height: auto;
+    max-width: fit-content;
+    padding: 2vw;
 }
 .book-tile{
     margin: 2vw;

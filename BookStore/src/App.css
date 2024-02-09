@@ -1,6 +1,4 @@
 #root {
-  max-width: 1280px;
-  /* margin: 0 auto; */
   text-align: center;
 }
 *{
@@ -48,10 +46,13 @@ footer{
   color: white;
   height: 10vh;
   /* padding: 2vw; */
-  width: 99vw;
+  width: 100%;
 }
 footer p{
   margin: 2vw;
+}
+.info{
+  color: goldenrod;
 }
 @media all and (orientation: portrait){
 .logo{

@@ -16,7 +16,7 @@ function App() {
       </Routes>
       
       <footer>
-        <p>Designed and Developed By - Abhishek Kaundal</p>
+        <p className="info">Designed and Developed By -<a href="">Abhishek Kaundal</a> </p>
       </footer>
     </>
   );
