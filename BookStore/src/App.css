@@ -39,13 +39,14 @@ height: 6vh;
   width:2vw;
   height: 4vh;
 }
+
 footer{
   display: flex;
   justify-content: center;
   background-color: black;
   color: white;
   height: 10vh;
-  /* padding: 2vw; */
+  margin-top:24vh;
   width: 100%;
 }
 footer p{
@@ -59,10 +60,31 @@ footer p{
   width:20vw;
 }
 input{
-  font-size: 5vw;
+  font-size: 4vw;
+  height: 5vh;
+  margin-top: 4vw;
 }
 .search{
-  height:100%;
+  height: 3vh;
+  width: 5vw;
 }
-
+.searchBtn{
+  height: 5vh;
+  margin-top: 4vw;
+  width:10vw;
+  padding: 1vw;
+}
+.register{
+  width: 20vw;
+  font-size: 4vw;
+  padding: 0.5vw;
+  margin-top: 2vw;
+}
+footer{
+  margin-top:28vh;
+  height: 8vh;
+}
+.info{
+  font-size: 4vw;
+}
 }

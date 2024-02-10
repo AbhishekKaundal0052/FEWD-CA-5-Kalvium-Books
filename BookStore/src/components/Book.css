@@ -37,5 +37,19 @@ body{
     justify-content: center;
 }
 @media all and (orientation: portrait){
-
+ .books{
+    margin-top: 15vh;
+ }
+ .book-tile{
+    height:44vh;
+    margin-bottom: 10vw;
+    font-size: 4vw;
+    padding:5vw;
+ }
+ .star{
+    width:4vw;
+ }
+ .rate{
+    font-size: 4vw;
+ }
 }

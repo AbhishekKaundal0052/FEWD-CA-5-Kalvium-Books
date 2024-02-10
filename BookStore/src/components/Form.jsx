@@ -26,13 +26,14 @@ export default function Form() {
               type="text"
               placeholder="Enter Name"
               className="input"
-              {...register("Name", { required: "Enter your Name",minLength: {
+              {...register("Name", { required: "Enter your Name",
+              minLength: {
                 value: 3,
-                message: "Name must be more than 4 characters",
+                message: "Name must be more than 3 characters",
               },
               maxLength: {
                 value: 30,
-                message: "Name cannot be more than 20 characters",
+                message: "Name cannot be more than 30 characters",
               }, })}
             ></input>
             <span>{errors.Name?.message}</span>

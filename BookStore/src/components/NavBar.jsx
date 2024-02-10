@@ -8,8 +8,11 @@ import Book from "./Book";
 export default function NavBar({setSearchedValue}) {
   const [searchValue, setSearchValue] = useState("");
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    if(e.key==='Enter')
     setSearchedValue(searchValue);
+  else
+  setSearchedValue(searchValue);
   };
   const handleChange = (e) => {
     setSearchValue(e.target.value);
@@ -27,8 +30,8 @@ export default function NavBar({setSearchedValue}) {
           </Link>
         </div>
         <div className="Input">
-          <input type="text" placeholder="Search..."  value={searchValue} onChange={handleChange}/>
-          <button className='' onClick={handleClick}><img className="search" src={icon}/></button>
+          <input type="text" placeholder="Search..."  value={searchValue} onChange={handleChange} />
+          <button className='searchBtn' onClick={handleClick}><img className="search" src={icon}/></button>
         </div>
         <Link to="/Form">
           <button className="register" >Register</button>
